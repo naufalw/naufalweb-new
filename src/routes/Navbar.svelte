@@ -1,18 +1,24 @@
 <script>
 	import '@fontsource/saira-stencil-one';
 	import '@fontsource/overpass';
+	let showDropdown = false;
+
+	const changeDropdown = () => {
+		showDropdown = !showDropdown;
+	};
 </script>
 
 <nav
-	class=" md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3 border-gray-200 px-2 sm:px-4 py-2.5 rounded-[22px] dark:bg-gray-900"
+	class=" md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 py-2.5 rounded-2xl md:rounded-3xl  backdrop-blur"
 >
 	<div class=" flex flex-wrap items-center justify-between ">
 		<button
 			data-collapse-toggle="navbar-cta"
 			type="button"
-			class=" order-0 inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+			class=" order-0 inline-flex items-center p-2 text-sm dark:text-gray-300 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 			aria-controls="navbar-cta"
 			aria-expanded="false"
+			on:click={changeDropdown}
 		>
 			<span class="sr-only">Open main menu</span>
 			<svg
@@ -30,25 +36,88 @@
 		</button>
 
 		<a href="/" class="flex items-center order-1">
-			<span class="naufalw self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-				>Naufalw.</span
+			<span
+				class="naufalw self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white"
+			>
+				Naufalw.</span
 			>
 		</a>
 		<div class="flex order-2">
-			<button
-				type="button"
-				class="ngt text-white px-5 md:px-8 bg-red-800 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-md py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-				>NGT</button
+			<a href="/ngt"
+				><button
+					type="button"
+					class="ngt text-white px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-3 md:mr-0"
+				>
+					NGT</button
+				></a
 			>
 		</div>
 	</div>
+	{#if showDropdown}
+		<div
+			class="z-10 ddown fixed font-normal mt-3 bg-white divide-y divide-gray-100 rounded-lg w-44 dark:bg-gray-800 dark:divide-gray-700 backdrop-blur"
+		>
+			<ul
+				class="py-1 text-sm text-gray-700 dark:text-gray-400 backdrop-blur-md"
+				aria-labelledby="dropdownLargeButton"
+			>
+				<li>
+					<a
+						href="/"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white backdrop-blur-md"
+						>Home</a
+					>
+				</li>
+				<li>
+					<a
+						href="/project"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white backdrop-blur-md"
+						>Project</a
+					>
+				</li>
+				<li>
+					<a
+						href="/blog"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white"
+						>Blog</a
+					>
+				</li>
+				<li>
+					<a
+						href="/econ"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white"
+						>Econ Olymp</a
+					>
+				</li>
+				<li>
+					<a
+						href="/report"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white"
+						>Report</a
+					>
+				</li>
+				<li>
+					<a
+						href="/about"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white"
+						>About me</a
+					>
+				</li>
+			</ul>
+			<div class="py-1">
+				<a
+					href="/"
+					class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 dark:hover:bg-red-700 dark:text-gray-400 dark:hover:text-white"
+					>Contact</a
+				>
+			</div>
+		</div>
+	{/if}
 </nav>
 
-<!-- <nav class="fixed text-white w-10/12 top-5 -translate-x-1/2 left-1/2">aokwo</nav> -->
 <style>
 	.naufalw {
 		font-family: 'Saira Stencil One', sans-serif;
-		font-weight: 400;
 		color: rgba(255, 255, 255, 0.85);
 		text-align: center;
 	}
@@ -56,13 +125,12 @@
 		font-family: 'OverpassVariable', sans-serif;
 		font-weight: 700;
 	}
-
+	.ddown {
+		background: rgba(22, 38, 41, 1);
+	}
 	nav {
 		position: fixed;
 		background: rgba(22, 38, 41, 0.45);
-		backdrop-filter: blur(7px);
 		/* Note: backdrop-filter has minimal browser support */
-
-		border-radius: 22px;
 	}
 </style>
