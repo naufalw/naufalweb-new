@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/overpass": "^4.5.10",
 		"@fontsource/saira-stencil-one": "^4.5.10",
 		"daisyui": "^2.46.0"
 	}

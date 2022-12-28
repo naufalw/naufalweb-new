@@ -1,5 +1,6 @@
 <script>
 	import '@fontsource/saira-stencil-one';
+	import '@fontsource/overpass';
 </script>
 
 <nav
@@ -36,7 +37,7 @@
 		<div class="flex order-2">
 			<button
 				type="button"
-				class="text-white px-8 bg-red-800 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+				class="ngt text-white px-5 md:px-8 bg-red-800 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-md py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 				>NGT</button
 			>
 		</div>
@@ -47,8 +48,15 @@
 <style>
 	.naufalw {
 		font-family: 'Saira Stencil One', sans-serif;
-		color: aquamarine;
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.85);
+		text-align: center;
 	}
+	.ngt {
+		font-family: 'OverpassVariable', sans-serif;
+		font-weight: 700;
+	}
+
 	nav {
 		position: fixed;
 		background: rgba(22, 38, 41, 0.45);
