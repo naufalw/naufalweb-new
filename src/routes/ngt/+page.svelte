@@ -6,11 +6,11 @@
 <div
 	class="bgblur backdrop-blur-md px-3 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12 bg-red-300 text-white rounded-xl md:rounded-2xl"
 >
-	<div class="title tracking-widest pl-2 text-iron-200 pb-10">NGT : NOPAL GAK TAU</div>
+	<div class="title tracking-wider pl-2 text-iron-300 pb-10">NGT : NOPAL GAK TAU</div>
 	<div class="mb-6">
 		<label
 			for="large-input"
-			class="block text-center uppercase mb-6 tracking-wider text-3xl md:text-4xl font-bold text-gray-900 dark:text-white"
+			class="block text-center uppercase mb-2 text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-bunker-100"
 			>Tell me something</label
 		>
 		<textarea
@@ -20,7 +20,7 @@
 		/>
 		<button
 			type="submit"
-			class="ngt_submit bg-red-800 hover:bg-red-700 block w-10/12 md:w-8/12 mt-3 uppercase mx-auto rounded-lg py-3 tracking-wide"
+			class="ngt_submit text-iron-200 bg-red-800 hover:bg-red-700 block w-10/12 md:w-8/12 mt-3 mb-8 uppercase mx-auto rounded-lg py-3 tracking-wide"
 			>Submit
 		</button>
 	</div>
@@ -32,10 +32,10 @@
 	}
 	.title {
 		font-family: 'Titillium Web', sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 	}
 	.ngt_submit {
 		font-family: 'OverpassVariable', sans-serif;
-		font-weight: 500;
+		font-weight: 600;
 	}
 </style>
