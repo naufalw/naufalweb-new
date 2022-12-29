@@ -10,7 +10,7 @@
 	<slot><!-- optional fallback --></slot>
 </main>
 
-<footer class="text-bombay-400">Copyright 2022 Naufal Wiwit</footer>
+<footer class="text-bombay-400">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
 	:global(body) {
