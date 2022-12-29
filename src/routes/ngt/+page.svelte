@@ -6,7 +6,7 @@
 <div
 	class="bgblur backdrop-blur-md px-3 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12 bg-red-300 text-white rounded-xl md:rounded-2xl"
 >
-	<div class="title tracking-widest pl-2 pb-10">NGT : NOPAL GAK TAU</div>
+	<div class="title tracking-widest pl-2 text-iron-200 pb-10">NGT : NOPAL GAK TAU</div>
 	<div class="mb-6">
 		<label
 			for="large-input"
@@ -32,7 +32,7 @@
 	}
 	.title {
 		font-family: 'Titillium Web', sans-serif;
-		font-weight: 600;
+		font-weight: 300;
 	}
 	.ngt_submit {
 		font-family: 'OverpassVariable', sans-serif;
