@@ -9,7 +9,7 @@
 </script>
 
 <nav
-	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 pt-2 pb-2 rounded-2xl md:rounded-3xl  backdrop-blur"
+	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  pl-2 pr-2 sm:px-4 pt-2 pb-2 rounded-2xl md:rounded-2xl  backdrop-blur"
 >
 	<div class=" flex flex-wrap items-center justify-between ">
 		<button
@@ -46,7 +46,7 @@
 			<a href="/ngt"
 				><button
 					type="button"
-					class="ngt text-iron-100 font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-3 md:mr-0"
+					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-0"
 				>
 					NGT</button
 				></a
