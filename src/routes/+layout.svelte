@@ -7,10 +7,10 @@
 <header><Navbar /></header>
 
 <main class="pt-20">
-	<slot><!-- optional fallback --></slot>
+	<slot />
 </main>
 
-<footer class="text-bombay-400">Copyright © 2022 Naufal Wiwit</footer>
+<footer class="text-bombay-400 text-sm pt-3">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
 	:global(body) {
@@ -24,6 +24,7 @@
 	footer {
 		text-align: center;
 		font-family: 'OverpassVariable', sans-serif;
+		font-weight: 300;
 	}
 	/* your styles go here */
 </style>
