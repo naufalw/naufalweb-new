@@ -6,7 +6,7 @@
 
 <header><Navbar /></header>
 
-<main class="pt-20">
+<main class="pt-[75px] md:pt-20">
 	<slot />
 </main>
 

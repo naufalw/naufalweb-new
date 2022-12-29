@@ -9,20 +9,20 @@
 </script>
 
 <nav
-	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 py-2.5 rounded-2xl md:rounded-3xl  backdrop-blur"
+	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 pt-2 pb-2 rounded-2xl md:rounded-3xl  backdrop-blur"
 >
 	<div class=" flex flex-wrap items-center justify-between ">
 		<button
 			data-collapse-toggle="navbar-cta"
 			type="button"
-			class=" order-0 inline-flex items-center p-2 text-sm dark:text-gray-300 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+			class=" order-0 inline-flex align-middle pt-2 items-center p-2 text-sm dark:text-gray-300 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 			aria-controls="navbar-cta"
 			aria-expanded="false"
 			on:click={changeDropdown}
 		>
 			<span class="sr-only">Open main menu</span>
 			<svg
-				class="w-6 h-6"
+				class="w-5 h-5 md:w-6 md:h-6"
 				aria-hidden="true"
 				fill="currentColor"
 				viewBox="0 0 20 20"
@@ -37,7 +37,7 @@
 
 		<a href="/" class="flex items-center order-1">
 			<span
-				class="naufalw self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white"
+				class="naufalw self-center align-middle pt-1 text-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white"
 			>
 				Naufalw.</span
 			>
@@ -46,7 +46,7 @@
 			<a href="/ngt"
 				><button
 					type="button"
-					class="ngt text-white px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-3 md:mr-0"
+					class="ngt text-iron-100 font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-3 md:mr-0"
 				>
 					NGT</button
 				></a
@@ -58,7 +58,7 @@
 			class=" ddown fixed font-normal mt-3.5 bg-white divide-y divide-gray-100 rounded-xl w-44 dark:bg-gray-800 dark:divide-gray-700"
 		>
 			<ul
-				class="pt-3 text-sm text-gray-700 dark:text-gray-400 "
+				class="pt-3.5 text-sm text-gray-700 dark:text-gray-400 "
 				aria-labelledby="dropdownLargeButton"
 			>
 				<li>
@@ -104,7 +104,7 @@
 					>
 				</li>
 			</ul>
-			<div class="pt-1 pb-3">
+			<div class="pt-1 pb-3.5">
 				<a
 					href="/about"
 					class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 dark:hover:bg-red-700 dark:text-gray-400 dark:hover:text-white"
@@ -123,7 +123,6 @@
 	}
 	.ngt {
 		font-family: 'OverpassVariable', sans-serif;
-		font-weight: 700;
 	}
 	.ddown {
 		z-index: 200;
@@ -132,7 +131,7 @@
 	nav {
 		position: fixed;
 		z-index: 1;
-		background: rgba(22, 38, 41, 0.45);
+		background: rgba(22, 38, 41, 0.6);
 		/* Note: backdrop-filter has minimal browser support */
 	}
 </style>
