@@ -9,7 +9,7 @@
 </script>
 
 <nav
-	class=" md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 py-2.5 rounded-2xl md:rounded-3xl  backdrop-blur"
+	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  px-2 sm:px-4 py-2.5 rounded-2xl md:rounded-3xl  backdrop-blur"
 >
 	<div class=" flex flex-wrap items-center justify-between ">
 		<button
@@ -55,23 +55,23 @@
 	</div>
 	{#if showDropdown}
 		<div
-			class="z-10 ddown fixed font-normal mt-3 bg-white divide-y divide-gray-100 rounded-lg w-44 dark:bg-gray-800 dark:divide-gray-700 backdrop-blur"
+			class=" ddown fixed font-normal mt-3.5 bg-white divide-y divide-gray-100 rounded-xl w-44 dark:bg-gray-800 dark:divide-gray-700"
 		>
 			<ul
-				class="py-1 text-sm text-gray-700 dark:text-gray-400 backdrop-blur-md"
+				class="pt-3 text-sm text-gray-700 dark:text-gray-400 "
 				aria-labelledby="dropdownLargeButton"
 			>
 				<li>
 					<a
 						href="/"
-						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white backdrop-blur-md"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white "
 						>Home</a
 					>
 				</li>
 				<li>
 					<a
 						href="/project"
-						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white backdrop-blur-md"
+						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white "
 						>Project</a
 					>
 				</li>
@@ -98,17 +98,17 @@
 				</li>
 				<li>
 					<a
-						href="/about"
+						href="/contact"
 						class="block px-4 py-2 hover:bg-red-100 dark:hover:bg-red-700 dark:hover:text-white"
-						>About me</a
+						>Contact</a
 					>
 				</li>
 			</ul>
-			<div class="py-1">
+			<div class="pt-1 pb-3">
 				<a
-					href="/"
+					href="/about"
 					class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100 dark:hover:bg-red-700 dark:text-gray-400 dark:hover:text-white"
-					>Contact</a
+					>About me</a
 				>
 			</div>
 		</div>
@@ -126,10 +126,12 @@
 		font-weight: 700;
 	}
 	.ddown {
+		z-index: 200;
 		background: rgba(22, 38, 41, 1);
 	}
 	nav {
 		position: fixed;
+		z-index: 1;
 		background: rgba(22, 38, 41, 0.45);
 		/* Note: backdrop-filter has minimal browser support */
 	}
