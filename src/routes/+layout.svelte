@@ -6,7 +6,7 @@
 
 <header><Navbar /></header>
 
-<main class="pt-16">
+<main class="pt-20">
 	<slot><!-- optional fallback --></slot>
 </main>
 
