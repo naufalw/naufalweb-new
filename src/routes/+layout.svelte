@@ -10,7 +10,7 @@
 	<slot />
 </main>
 
-<footer class="text-bombay-400 text-sm pt-3">Copyright © 2022 Naufal Wiwit</footer>
+<footer class="text-bombay-400 text-sm pt-5">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
 	:global(body) {
