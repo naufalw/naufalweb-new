@@ -38,6 +38,7 @@
 	"dependencies": {
 		"@fontsource/overpass": "^4.5.10",
 		"@fontsource/saira-stencil-one": "^4.5.10",
+		"@fontsource/titillium-web": "^4.5.9",
 		"daisyui": "^2.46.0"
 	}
 }
