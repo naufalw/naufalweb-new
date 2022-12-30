@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '@fontsource/titillium-web';
-	import '@fontsource/overpass';
 	import { enhance, type SubmitFunction } from '$app/forms';
 	import toast from 'svelte-french-toast';
 	let loading = false;

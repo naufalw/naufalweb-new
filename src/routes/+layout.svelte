@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import Navbar from './Navbar.svelte';
+	import '@fontsource/titillium-web';
 	import '@fontsource/overpass';
 	import { Toaster } from 'svelte-french-toast';
 </script>
