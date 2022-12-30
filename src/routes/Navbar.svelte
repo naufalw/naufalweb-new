@@ -37,7 +37,7 @@
 
 		<a href="/" class="flex items-center order-1">
 			<span
-				class="naufalw self-center align-middle pt-1 text-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white"
+				class="naufalw self-center align-middle pt-1/2 text-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white"
 			>
 				Naufalw.</span
 			>
@@ -46,7 +46,7 @@
 			<a href="/ngt"
 				><button
 					type="button"
-					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-md py-2 text-center mr-0"
+					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base py-2 text-center mr-0"
 				>
 					NGT</button
 				></a
