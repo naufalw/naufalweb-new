@@ -10,19 +10,26 @@
 	<div class="mb-6">
 		<label
 			for="large-input"
-			class="block text-center uppercase mb-2 text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-bunker-100"
+			class="block text-center mb-5 text-4xl md:text-4xl font-extrabold text-gray-900 dark:text-bunker-100"
 			>Tell me something</label
 		>
-		<textarea
-			id="large-input"
-			rows="3"
-			class="block w-10/12 md:w-8/12 mx-auto p-4 text-gray-900 border text-center md:text-lg border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-bunker-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-		/>
-		<button
-			type="submit"
-			class="ngt_submit text-iron-200 bg-red-800 hover:bg-red-700 block w-10/12 md:w-8/12 mt-3 mb-8 uppercase mx-auto rounded-lg py-3 tracking-wide"
-			>Submit
-		</button>
+		<form action="POST">
+			<textarea
+				id="large-input"
+				rows="3"
+				class="block w-11/12 md:w-7/12 mx-auto p-4 text-gray-900 border text-center md:text-lg border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-bunker-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+			/>
+			<button
+				type="submit"
+				class="ngt_submit text-iron-200 bg-red-800 hover:bg-red-700 block w-11/12 md:w-7/12 mt-3 mb-8 uppercase mx-auto rounded-lg py-3 tracking-wide"
+				>Submit
+			</button>
+		</form>
+		<p class="ml-auto text-xs text-gray-500 dark:text-gray-400">
+			Inspired by <a href="https://ngl.link" class="text-red-600 dark:text-red-500 hover:underline"
+				>ngl.link</a
+			>. Your detail will not be shared with me.
+		</p>
 	</div>
 </div>
 
