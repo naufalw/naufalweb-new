@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	<div class="ml-5 mt-5 mb-4 ">
-		<ul class="list-inside list-disc leading-5 text-sm md:text-base">
+		<ul class="list-inside list-disc leading-5 text-md md:text-lg">
 			<li class="li_item text-iron-200">Was born in 2005</li>
 			<li class="li_item text-iron-200">
 				I'm currently majoring social science in MAN 2 Kota Malang
@@ -62,6 +62,6 @@
 	}
 	.li_item {
 		font-family: 'OverpassVariable', sans-serif;
-		font-weight: 200;
+		font-weight: 300;
 	}
 </style>
