@@ -2,8 +2,10 @@
 	import '../app.css';
 	import Navbar from './Navbar.svelte';
 	import '@fontsource/overpass';
+	import { Toaster } from 'svelte-french-toast';
 </script>
 
+<Toaster />
 <header><Navbar /></header>
 
 <main class="pt-[75px] md:pt-20">
