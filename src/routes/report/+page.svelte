@@ -2,9 +2,9 @@
 	class="bgblur backdrop-blur-md px-3 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12 bg-red-300 text-white rounded-xl md:rounded-2xl"
 >
 	<div class="title uppercase tracking-wider md:tracking-widest pl-2 text-iron-300 pb-7 md:pb-10">
-		econ
+		bug
 	</div>
-	<div class="text-center text-2xl">not ready yet :|</div>
+	<div class="text-center text-2xl">Also not ready yet :|</div>
 </div>
 
 <style>
