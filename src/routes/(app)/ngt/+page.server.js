@@ -1,5 +1,5 @@
 import { fail } from '@sveltejs/kit';
-import { altogic } from '../../../configs/altogic';
+import { altogic } from '../../../../configs/altogic';
 
 export const actions = {
 	create: async ({ request }) => {
