@@ -9,10 +9,10 @@
 </script>
 
 <div class="full">
-	<h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-white">Hello Bwang! Welkam</h1>
+	<h1 class="text-3xl sm:text-3xl md:text-4xl font-semibold text-white">Hello Bwang! Welkam</h1>
 	<h2 class="text-md sm:text-base md:text-lg ">to my personal website:)</h2>
 	<div
-		class="grid mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full xl:gap-y-6 gap-2.5 pt-4 md:pt-9"
+		class="grid mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-y-5 xl:gap-y-6 gap-2.5 pt-6 md:pt-9"
 	>
 		<MenuCard title="Project" href="/project"><ProjectIcon /></MenuCard>
 		<MenuCard title="Blog" href="/blog"><BlogIcon /></MenuCard>
