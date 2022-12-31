@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Projects | Naufalw.</title>
+</svelte:head>
+
 <div class="title uppercase tracking-wider md:tracking-widest pl-2 text-iron-300 pb-7 md:pb-10">
 	projects
 </div>

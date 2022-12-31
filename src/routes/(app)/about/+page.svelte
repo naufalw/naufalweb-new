@@ -2,6 +2,10 @@
 	import naufal from '$lib/assets/naufal.webp';
 </script>
 
+<svelte:head>
+	<title>About me | Naufalw.</title>
+</svelte:head>
+
 <div class="title uppercase tracking-wider md:tracking-widest pl-5 text-iron-300 pb-5 md:pb-10">
 	About Me
 </div>

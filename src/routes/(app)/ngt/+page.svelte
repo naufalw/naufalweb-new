@@ -30,6 +30,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>NGT: Nopal Gak Tau | Naufalw.</title>
+</svelte:head>
+
 <Title title="NGT: Nopal Gak Tau" />
 
 <div class="mb-2.5">

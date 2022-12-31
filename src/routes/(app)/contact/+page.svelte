@@ -2,6 +2,10 @@
 	import Title from '$lib/components/PageTitle.svelte';
 </script>
 
+<svelte:head>
+	<title>Contacts | Naufalw.</title>
+</svelte:head>
+
 <Title title="Contacts" />
 <div class=" ">
 	<a href="https://instagram.com/naufalwiwitp"

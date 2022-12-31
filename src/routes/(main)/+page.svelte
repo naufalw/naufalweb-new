@@ -8,6 +8,10 @@
 	import MenuCard from '$lib/components/menu/MenuCard.svelte';
 </script>
 
+<svelte:head>
+	<title>Naufal's Personal Website | Naufalw.</title>
+</svelte:head>
+
 <div class="full">
 	<h1 class="text-3xl sm:text-3xl md:text-4xl font-semibold text-white">Hello Bwang! Welkam</h1>
 	<h2 class="text-md sm:text-base md:text-lg ">to my personal website:)</h2>
