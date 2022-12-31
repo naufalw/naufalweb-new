@@ -1,6 +1,4 @@
 <script>
-	import { assets } from '$app/paths';
-	import idea from '$lib/assets/menu/idea.svg';
 	import ProjectIcon from '$lib/components/menu/ProjectIcon.svelte';
 	import BlogIcon from '$lib/components/menu/BlogIcon.svelte';
 	import EconIcon from '$lib/components/menu/EconIcon.svelte';
