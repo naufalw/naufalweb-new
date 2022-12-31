@@ -5,7 +5,7 @@
 <header><Navbar /></header>
 <main class="pt-[75px] md:pt-20">
 	<div
-		class="bgblur backdrop-blur-md px-3 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12  text-white rounded-xl md:rounded-2xl"
+		class="-md px-2 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12  text-white rounded-xl md:rounded-2xl"
 	>
 		<slot />
 	</div>
@@ -13,9 +13,6 @@
 <footer class="text-bombay-400 text-sm pt-5">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
-	.bgblur {
-		background: rgba(22, 38, 41, 0.45);
-	}
 	footer {
 		text-align: center;
 		font-family: 'OverpassVariable', sans-serif;
