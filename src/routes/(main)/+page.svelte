@@ -1,10 +1,11 @@
 <script>
-	import ProjectIcon from '$lib/components/menu/ProjectIcon.svelte';
-	import BlogIcon from '$lib/components/menu/BlogIcon.svelte';
-	import EconIcon from '$lib/components/menu/EconIcon.svelte';
-	import BugIcon from '$lib/components/menu/BugIcon.svelte';
-	import ContactsIcon from '$lib/components/menu/ContactsIcon.svelte';
-	import AboutIcon from '$lib/components/menu/AboutIcon.svelte';
+	import project from '$lib/assets/menu/project.webp';
+	import blog from '$lib/assets/menu/blog.webp';
+	import econ from '$lib/assets/menu/econ.webp';
+	import bug from '$lib/assets/menu/bug.webp';
+	import contact from '$lib/assets/menu/contact.webp';
+	import about from '$lib/assets/menu/about.webp';
+
 	import MenuCard from '$lib/components/menu/MenuCard.svelte';
 </script>
 
@@ -18,12 +19,12 @@
 	<div
 		class="grid mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-y-5 xl:gap-y-6 gap-2.5 pt-6 md:pt-9"
 	>
-		<MenuCard title="Project" href="/project"><ProjectIcon /></MenuCard>
-		<MenuCard title="Blog" href="/blog"><BlogIcon /></MenuCard>
-		<MenuCard title="Econ Olymp" href="/econ"><EconIcon /></MenuCard>
-		<MenuCard title="Bug Report" href="/report"><BugIcon /></MenuCard>
-		<MenuCard title="Contacts" href="/contacts"><ContactsIcon /></MenuCard>
-		<MenuCard title="About Me" href="/about"><AboutIcon /></MenuCard>
+		<MenuCard title="Project" href="/project" imgPath={project} />
+		<MenuCard title="Blog" href="/project" imgPath={blog} />
+		<MenuCard title="Econ Olymp" href="/project" imgPath={econ} />
+		<MenuCard title="Bug Report" href="/project" imgPath={bug} />
+		<MenuCard title="Contact" href="/project" imgPath={contact} />
+		<MenuCard title="About Me" href="/project" imgPath={about} />
 	</div>
 </div>
 
