@@ -22,7 +22,7 @@
 		<MenuCard title="Blog" href="/blog"><BlogIcon /></MenuCard>
 		<MenuCard title="Econ Olymp" href="/econ"><EconIcon /></MenuCard>
 		<MenuCard title="Bug Report" href="/report"><BugIcon /></MenuCard>
-		<MenuCard title="Contacts" href="/contacts"><ContactsIcon /></MenuCard>
+		<MenuCard title="Contacts" href="/contact"><ContactsIcon /></MenuCard>
 		<MenuCard title="About Me" href="/about"><AboutIcon /></MenuCard>
 	</div>
 </div>
