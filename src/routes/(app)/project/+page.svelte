@@ -1,3 +1,7 @@
+<script>
+	export const prerender = true;
+</script>
+
 <svelte:head>
 	<title>Projects | Naufalw.</title>
 </svelte:head>

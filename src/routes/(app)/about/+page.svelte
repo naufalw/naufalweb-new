@@ -1,5 +1,6 @@
 <script>
 	import naufal from '$lib/assets/naufal.webp';
+	export const prerender = true;
 </script>
 
 <svelte:head>

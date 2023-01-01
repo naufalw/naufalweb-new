@@ -1,6 +1,7 @@
 <script>
 	export let data;
 	const { result, maxPage, currentPage } = data.ngt;
+	export const ssr = true;
 </script>
 
 <div class="text-white container text-4xl mt-4 text-center mx-auto ">Max Page : {maxPage}</div>

@@ -15,16 +15,16 @@
 
 <div class="full">
 	<h1 class="text-3xl sm:text-3xl md:text-4xl font-semibold text-white">Hello Bwang! Welkam</h1>
-	<h2 class="text-md sm:text-base md:text-lg ">to my personal website:)</h2>
+	<h2 class="text-md sm:text-base md:pt-1 md:text-lg ">to my personal website:)</h2>
 	<div
-		class="grid mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-y-5 xl:gap-y-6 gap-2.5 pt-6 md:pt-9"
+		class="grid items-center justify-between  mx-auto grid-cols-1  sm:grid-cols-2 md:grid-cols-3 w-full gap-y-5 xl:gap-y-6 gap-2.5 pt-4 md:pt-6 "
 	>
 		<MenuCard title="Project" href="/project" imgPath={project} />
-		<MenuCard title="Blog" href="/project" imgPath={blog} />
-		<MenuCard title="Econ Olymp" href="/project" imgPath={econ} />
-		<MenuCard title="Bug Report" href="/project" imgPath={bug} />
-		<MenuCard title="Contact" href="/project" imgPath={contact} />
-		<MenuCard title="About Me" href="/project" imgPath={about} />
+		<MenuCard title="Blog" href="/blog" imgPath={blog} />
+		<MenuCard title="Econ Olymp" href="/econ" imgPath={econ} />
+		<MenuCard title="Bug Report" href="/report" imgPath={bug} />
+		<MenuCard title="Contact" href="/contact" imgPath={contact} />
+		<MenuCard title="About Me" href="/about" imgPath={about} />
 	</div>
 </div>
 

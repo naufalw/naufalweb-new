@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { enhance, type SubmitFunction } from '$app/forms';
+	export const prerender = true;
 	import toast from 'svelte-french-toast';
 	import Title from '$lib/components/PageTitle.svelte';
 	let loading = false;

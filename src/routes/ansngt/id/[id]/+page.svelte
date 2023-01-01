@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-
+	export const ssr = true;
 	export let data: PageData;
 	const { sambat } = data;
 </script>

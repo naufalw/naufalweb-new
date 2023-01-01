@@ -1,5 +1,6 @@
 <script>
 	import Title from '$lib/components/PageTitle.svelte';
+	export const prerender = true;
 </script>
 
 <svelte:head>
