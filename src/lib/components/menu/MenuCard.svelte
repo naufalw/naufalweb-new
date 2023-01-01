@@ -5,7 +5,7 @@
 
 <a {href}
 	><div
-		class="menu pt-4 md:pt-9 border border-gray-800/[.2] bg-gray-600/[.13] md:max-w-[24rem] hover:bg-gray-600/[.5] backdrop-blur-3xl rounded-br-[17px] rounded-bl-[17px] rounded-xl"
+		class="menu pt-4 md:pt-9 border border-gray-800/[.2] bg-gray-600/[.13] md:max-w-[24rem] hover:bg-gray-600/[.5] backdrop-blur rounded-br-[17px] rounded-bl-[17px] rounded-xl"
 	>
 		<div class="md:pb-3.5"><slot><!-- optional fallback --></slot></div>
 
