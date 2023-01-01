@@ -11,7 +11,7 @@
 		<img class="h-[6rem] md:h-[7rem] mx-auto mb-4 md:mb-8" src={imgPath} alt={title} />
 
 		<h3
-			class=" uppercase tracking-widest font-extrabold md:text-lg text-center py-2 bg-red-800 rounded-br-[17px] rounded-bl-[17px]"
+			class=" uppercase tracking-widest md:text-lg text-center py-2 bg-red-800 rounded-br-[17px] rounded-bl-[17px]"
 		>
 			{title}
 		</h3>
@@ -21,6 +21,6 @@
 <style>
 	h3 {
 		font-family: 'Titillium Web', sans-serif;
-		font-weight: 800;
+		font-weight: 900;
 	}
 </style>
