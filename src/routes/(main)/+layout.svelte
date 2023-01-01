@@ -2,6 +2,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
+>
 <header><Navbar /></header>
 <main class="pt-[75px] md:pt-20">
 	<div
@@ -10,7 +11,7 @@
 		<slot />
 	</div>
 </main>
-<footer class="text-bombay-400 text-sm pt-5">Copyright © 2022 Naufal Wiwit</footer>
+<footer class="text-bombay-400 pb-4 text-sm pt-5">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
 	footer {
