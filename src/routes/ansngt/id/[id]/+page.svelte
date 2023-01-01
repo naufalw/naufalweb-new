@@ -3,9 +3,9 @@
 	const { sambat } = data;
 </script>
 
-<div class=" w-full h-full ">
+<div class=" px-8  ">
 	<div
-		class="block  max-w-sm mx-auto my-[12vh] bg-white r border-gray-200 rounded-xl shadow-md  dark:bg-[#171F21] dark:border-gray-700 "
+		class=" max-w-sm mx-auto my-[12vh] bg-white r border-gray-200 rounded-xl shadow-md  dark:bg-[#171F21] dark:border-gray-700 "
 	>
 		<h5
 			class="titlengt  font-bold text-2xl py-2  rounded-lg text-center tracking-tight bg-red-700 text-gray-900 dark:text-white"
