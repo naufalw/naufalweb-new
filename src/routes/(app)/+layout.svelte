@@ -10,7 +10,7 @@
 		<slot />
 	</div>
 </main>
-<footer class="text-bombay-400 text-sm pt-5">Copyright © 2022 Naufal Wiwit</footer>
+<footer class="text-bombay-400 text-sm mb-4 pt-5">Copyright © 2022 Naufal Wiwit</footer>
 
 <style>
 	.bgblur {
@@ -18,7 +18,7 @@
 	}
 	footer {
 		text-align: center;
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 		font-weight: 300;
 	}
 </style>
