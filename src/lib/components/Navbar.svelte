@@ -1,6 +1,6 @@
 <script>
 	import '@fontsource/saira-stencil-one';
-	import '@fontsource/overpass';
+	import '@fontsource/overpass/600.css';
 	let showDropdown = false;
 
 	const changeDropdown = () => {
@@ -46,7 +46,7 @@
 			<a href="/ngt"
 				><button
 					type="button"
-					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base py-2 text-center mr-0"
+					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base pb-1.5 pt-2.5 text-center mr-0"
 				>
 					NGT</button
 				></a
@@ -116,7 +116,7 @@
 		text-align: center;
 	}
 	.ngt {
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 	}
 	.ddown {
 		z-index: 200;
