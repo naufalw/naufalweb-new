@@ -1,5 +1,6 @@
 <script>
 	import naufal from '$lib/assets/naufal.webp';
+	import PageTitle from '$lib/components/PageTitle.svelte';
 	export const prerender = true;
 </script>
 
@@ -7,11 +8,9 @@
 	<title>About me | Naufalw.</title>
 </svelte:head>
 
-<div class="title uppercase tracking-wider md:tracking-widest pl-5 text-iron-300 pb-5 md:pb-10">
-	About Me
-</div>
+<PageTitle title="about me " />
 
-<div class="flex flex-row  items-center w-11/12 justify-items-start ustify pl-7 md:pl-8 ">
+<div class="flex flex-row  items-center w-11/12 justify-items-start ustify pl-2 md:pl-2 ">
 	<div><img class="w-[30vh] md:w-[40vh]" src={naufal} alt="foto nopal gemink" /></div>
 
 	<div class="nama  flex-col  ml-4 md:ml-8   items-center">
@@ -25,7 +24,7 @@
 		</div>
 	</div>
 </div>
-<div class="ml-8 md:ml-11 mt-5 mb-4 ">
+<div class="ml-4 md:ml-7 mt-5 mb-4 ">
 	<ul class="list-inside list-disc  text-[14px] md:text-lg">
 		<li class="li_item text-iron-200">Was born in 2005</li>
 		<li class="li_item text-iron-200">
@@ -56,7 +55,7 @@
 		font-weight: 700;
 	}
 	.li_item {
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 		font-weight: 300;
 	}
 </style>
