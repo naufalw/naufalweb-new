@@ -15,7 +15,7 @@
 <style>
 	footer {
 		text-align: center;
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 		font-weight: 300;
 	}
 </style>

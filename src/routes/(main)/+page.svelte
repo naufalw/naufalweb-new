@@ -32,7 +32,8 @@
 		font-family: 'Titillium Web', sans-serif;
 	}
 	h2 {
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
+		font-weight: 300;
 		color: rgba(219, 221, 222, 0.81);
 	}
 </style>

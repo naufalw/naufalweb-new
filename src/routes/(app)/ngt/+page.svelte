@@ -87,10 +87,10 @@
 
 <style>
 	.ngt_submit {
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 		font-weight: 600;
 	}
 	.fnote {
-		font-family: 'OverpassVariable', sans-serif;
+		font-family: 'Overpass', sans-serif;
 	}
 </style>

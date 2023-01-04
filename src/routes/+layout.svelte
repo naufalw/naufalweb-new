@@ -1,7 +1,8 @@
 <script>
 	import '../app.css';
 	import '@fontsource/titillium-web';
-	import '@fontsource/overpass';
+	import '@fontsource/overpass/300.css';
+	import '@fontsource/overpass/400.css';
 	import { Toaster } from 'svelte-french-toast';
 </script>
 
