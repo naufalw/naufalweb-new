@@ -54,10 +54,7 @@
 		<button
 			disabled={loading}
 			type="submit"
-			on:click={() => {
-				console.log('clicked');
-			}}
-			class=" ngt_submit object-center  text-iron-200 disabled:text-iron-300 disabled:bg-red-900 bg-red-800 hover:bg-red-700 block w-11/12 md:w-7/12 mt-3 mb-8 uppercase mx-auto rounded-lg py-3 tracking-wide"
+			class=" ngt_submit object-center  text-iron-200 disabled:text-iron-300 disabled:bg-red-900 bg-red-800 hover:bg-red-700 block w-11/12 md:w-7/12 mt-3 mb-8 uppercase mx-auto rounded-lg pt-3 pb-2.5 tracking-wide"
 		>
 			{#if loading}
 				<svg
