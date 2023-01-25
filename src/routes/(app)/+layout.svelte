@@ -10,7 +10,7 @@
 		<slot />
 	</div>
 </main>
-<footer class="text-bombay-400 text-sm mb-4 pt-5">Copyright © 2022 Naufal Wiwit</footer>
+<footer title="" class="text-bombay-400 text-sm mb-4 pt-5">Copyright © 2023 Naufal Wiwit</footer>
 
 <style>
 	.bgblur {
