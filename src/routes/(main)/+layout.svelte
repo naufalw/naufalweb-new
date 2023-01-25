@@ -5,7 +5,7 @@
 
 >
 <header><Navbar /></header>
-<main class="pt-[3rem] md:pt-14">
+<main class="pt-[3rem] md:pt-14" title="">
 	<div class=" px-2 py-3 mx-auto sm:px-4 w-11/12 md:w-10/12  text-white rounded-xl md:rounded-2xl">
 		<slot />
 	</div>
