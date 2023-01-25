@@ -46,10 +46,10 @@
 </div>
 
 <style>
-	.title {
+	/* .title {
 		font-family: 'Titillium Web', sans-serif;
 		font-weight: 400;
-	}
+	} */
 	.nama {
 		font-family: 'Titillium Web', sans-serif;
 		font-weight: 700;
