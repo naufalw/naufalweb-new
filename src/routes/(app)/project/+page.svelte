@@ -5,6 +5,7 @@
 
 <svelte:head>
 	<title>Projects | Naufalw.</title>
+	<meta name="description" content="Kumpulan project saya, semoga anda suka aokwokw:)" />
 </svelte:head>
 
 <Title title="Projects" />
