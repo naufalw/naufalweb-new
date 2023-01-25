@@ -9,6 +9,10 @@
 
 <svelte:head>
 	<title>Econ Olymp | Naufalw.</title>
+	<meta
+		name="description"
+		content="Bahan persiapan untuk OSN Ekonomi tingkat SMA. Bahan-bahan ini telah terbukti membantu saya meraih medali emas di OSN Ekonomi 2022 tingkat SMA"
+	/>
 </svelte:head>
 <!-- h-48 sm:h-52 md:h-56 -->
 <Title title="econ olymp" />
