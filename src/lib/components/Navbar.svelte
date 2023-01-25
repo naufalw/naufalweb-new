@@ -9,6 +9,7 @@
 </script>
 
 <nav
+	title=""
 	class="md:w-10/12 w-11/12 left-1/2 -translate-x-1/2 top-3  pl-2 pr-2 sm:px-4 pt-2 pb-2 rounded-2xl md:rounded-2xl  backdrop-blur"
 >
 	<div class=" flex flex-wrap items-center justify-between ">
