@@ -15,6 +15,7 @@
 		<button
 			data-collapse-toggle="navbar-cta"
 			type="button"
+			title="Menu"
 			class=" order-0 inline-flex align-middle pt-2 items-center p-2 text-sm dark:text-gray-300 rounded-lg  hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 			aria-controls="navbar-cta"
 			aria-expanded="false"
@@ -45,8 +46,9 @@
 		<div class="flex order-2">
 			<a href="/ngt"
 				><button
+					title="NGT: Nopal Gak Tau"
 					type="button"
-					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base pb-1.5 pt-2.5 text-center mr-0"
+					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring md:focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base pb-1.5 pt-2.5 text-center mr-0"
 				>
 					NGT</button
 				></a
