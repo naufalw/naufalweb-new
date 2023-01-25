@@ -40,6 +40,7 @@
 <div class="mb-2.5">
 	<form method="POST" action="?/create" use:enhance={submitNGT} on:submit={() => {}}>
 		<label
+			title=""
 			for="ngt_form"
 			class="block tracking-wide text-center mb-5 text-4xl md:text-[48px] font-extrabold text-gray-900 dark:text-bunker-100"
 			>Tell me something</label
@@ -54,6 +55,7 @@
 		<button
 			disabled={loading}
 			type="submit"
+			title="Submit NGT"
 			class=" ngt_submit object-center  text-iron-200 disabled:text-iron-300 disabled:bg-red-900 bg-red-800 hover:bg-red-700 block w-11/12 md:w-7/12 mt-3 mb-8 uppercase mx-auto rounded-lg pt-3 pb-2.5 tracking-wide"
 		>
 			{#if loading}
@@ -75,9 +77,11 @@
 				</svg>{/if}Submit
 		</button>
 	</form>
-	<p class="fnote ml-auto text-xs text-gray-500 dark:text-gray-400">
-		Inspired by <a href="https://ngl.link" class="text-red-600 dark:text-red-500 hover:underline"
-			>ngl.link</a
+	<p class="fnote ml-auto text-xs text-gray-500 dark:text-gray-400" title="">
+		Inspired by <a
+			href="https://ngl.link"
+			title="ngl.link"
+			class="text-red-600 dark:text-red-500 hover:underline">ngl.link</a
 		>. Your detail will not be shared with me.
 	</p>
 </div>
