@@ -2,7 +2,7 @@
 	export let title: string;
 </script>
 
-<div class="title uppercase tracking-wider md:tracking-widest pl-2 text-iron-300 pb-7 md:pb-10">
+<div class="title uppercase tracking-wider md:tracking-widest pl-2 text-iron-400 pb-4 md:pb-10">
 	{title}
 </div>
 
