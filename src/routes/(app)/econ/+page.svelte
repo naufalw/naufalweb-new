@@ -3,6 +3,8 @@
 	export const prerender = true;
 	import '@fontsource/titillium-web/700.css';
 	import Book from '$lib/components/econ/Book.svelte';
+	import mankiw from '$lib/assets/books/mankiw.webp';
+	import prathama from '$lib/assets/books/pie_prathama.webp';
 </script>
 
 <svelte:head>
@@ -17,13 +19,13 @@
 			<Book
 				title="Pengantar Ilmu Ekonomi (by Prathama Rahardja)"
 				link="https://penerbitsalemba.com/buku/04-0082-pengantar-ilmu-ekonomi-edisi-4"
-				imgSource="https://api.penerbitsalemba.com/book/books/04-0082/images/baecd646-a1c7-4340-81ca-f18c7945ee88.jpg"
+				imgSource={prathama}
 			/>
 
 			<Book
 				title="Principles of Economics (by N. Gregory Mankiw)"
 				link="https://www.tokopedia.com/lapakwagino/principles-of-economics-n-gregory-mankiw"
-				imgSource="https://www.cengage.com/covers/imageServlet?image_type=LRGFC&catalog=cengage&productISBN13=9780357038314"
+				imgSource={mankiw}
 			/>
 		</div>
 	</div>
@@ -34,7 +36,7 @@
 <style>
 	h1 {
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.08em;
 		font-family: 'Titillium Web', sans-serif;
 		font-weight: 700;
 	}
