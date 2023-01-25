@@ -1,6 +1,7 @@
 <script lang="ts">
 	export let title: string;
 	export let href: string;
+	import '@fontsource/titillium-web/600.css';
 </script>
 
 <a {href}
@@ -20,6 +21,6 @@
 <style>
 	h3 {
 		font-family: 'Titillium Web', sans-serif;
-		font-weight: 900;
+		font-weight: 600;
 	}
 </style>
