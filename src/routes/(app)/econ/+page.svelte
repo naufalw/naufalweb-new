@@ -10,12 +10,12 @@
 <svelte:head>
 	<title>Econ Olymp | Naufalw.</title>
 </svelte:head>
-
+<!-- h-48 sm:h-52 md:h-56 -->
 <Title title="econ olymp" />
-<div class="pl-2 pb-2">
-	<div class=" pb-3">
+<div class="pl-2 pb-5">
+	<div class="">
 		<h1 class=" text-[#DDDDDD] text-2xl">Books</h1>
-		<div class="flex h-52 sm:h-64 md:h-72 overflow-x-auto shrink-0 gap-3 px-1 py-1">
+		<div class="flex h-[30vw] min-h-[180px] max-h-56 overflow-x-auto shrink-0 gap-3 px-1 py-1">
 			<Book
 				title="Pengantar Ilmu Ekonomi (by Prathama Rahardja)"
 				link="https://penerbitsalemba.com/buku/04-0082-pengantar-ilmu-ekonomi-edisi-4"
@@ -29,8 +29,8 @@
 			/>
 		</div>
 	</div>
-
-	<h1 class=" text-[#DDDDDD] text-2xl">Articles</h1>
+	<div class="h-3" />
+	<div><h1 class=" text-[#DDDDDD] text-2xl">Articles</h1></div>
 </div>
 
 <style>
