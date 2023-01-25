@@ -33,6 +33,10 @@
 
 <svelte:head>
 	<title>NGT: Nopal Gak Tau | Naufalw.</title>
+	<meta
+		name="description"
+		content="Send anonymous message to Naufal Wiwit Putra using NGT (Nopal Gak Tau). Your detail will not be shared with me."
+	/>
 </svelte:head>
 
 <Title title="NGT: Nopal Gak Tau" />
