@@ -1,6 +1,6 @@
 <script>
 	import '@fontsource/saira-stencil-one';
-	import '@fontsource/overpass/600.css';
+	import '@fontsource/titillium-web/700.css';
 	let showDropdown = false;
 
 	const changeDropdown = () => {
@@ -49,7 +49,7 @@
 				><button
 					title="NGT: Nopal Gak Tau"
 					type="button"
-					class="ngt text-iron-100  font-semibold md:font-bold  px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring md:focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-sm md:text-base pb-1.5 pt-2.5 text-center mr-0"
+					class="ngt text-iron-100   px-5 md:px-8 dark:bg-red-800 dark:hover:bg-red-700 focus:ring md:focus:ring-4 focus:outline-none focus:ring-red-900  rounded-lg text-base md:text-base py-2  text-center mr-0"
 				>
 					NGT</button
 				></a
@@ -119,7 +119,8 @@
 		text-align: center;
 	}
 	.ngt {
-		font-family: 'Overpass', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 700;
 	}
 	.ddown {
 		z-index: 200;
